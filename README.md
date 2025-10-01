@@ -51,14 +51,29 @@ La documentación y el control de versiones son piezas fundamentales en el desar
   ![](/img/5.png)
 
 - user2 creará un fork de git-work desde su cuenta de GitHub.
+
+  ![](/img/7.1.png)
+
 - user2 clonará su fork del repo.
+
+![](/img/8.1.png)
+
 - user1 creará una issue con el título "Add custom text for startup contents".
 
   ![](/img/9.png)
   ![](/img/10.png)
 
 - user2 creará una nueva rama custom-text y modificará el fichero index.html personalizándolo para una supuesta startup.
+
+  ![](/img/11.1.png)
+  ![](/img/12.1.png)
+
 - user2 enviará un PR a user1.
+
+  ![](/img/13.1.png)
+  ![](/img/14.1.png)
+  
+
 - user1 probará el PR de user2 en su máquina (copia local) creando previamente un remoto denominado upstream.
 
   ![](/img/15.png)
@@ -72,6 +87,7 @@ La documentación y el control de versiones son piezas fundamentales en el desar
 - user1 y user2 tendrán una pequeña conversación en la página del PR, donde cada usuario incluirá, al menos, un cambio más.
 
   ![](/img/23.png)
+  ![](/img/15.1.png)
 
 - user1 finalmente aprobará el PR.
 
@@ -82,6 +98,10 @@ La documentación y el control de versiones son piezas fundamentales en el desar
   ![](/img/25.png)
 
 - user2 deberá incorporar los cambios de la rama principal de upstream en su propia rama principal.
+
+  ![](/img/16.1.png)
+  ![](/img/17.1.png)
+
 - user1 creará una issue con el título "Improve UX with cool colors".
 
   ![](/img/26.png)
@@ -95,7 +115,13 @@ La documentación y el control de versiones son piezas fundamentales en el desar
   ![](/img/28.png)
 
 - user2 creará una nueva rama cool-colors y cambiará la línea 10 de cover.css a: color: darkgreen;
+  
+  ![](/img/19.1.png)
+  ![](/img/18.1.png)
+
 - user2 enviará un PR a user1.
+  
+  ![](/img/20.1.png)
 
 - user1 probará el PR de user2 (en su copia local). A continuación tratará de mergear el contenido de la rama cool-colors en su rama principal y tendrá que gestionar el conflicto: Dejar el contenido que viene de user2.
 
